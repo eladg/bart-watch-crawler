@@ -6,18 +6,12 @@
     "crawl": "node_modules/webpack/bin/webpack.js && node build/crawler.js",
     "build-watch": "webpack -w"
   },
-  "devDependencies": {
-  },
+  "devDependencies": {},
   "dependencies": {
-    "babel-cli": "^6.18.0",
-    "babel-core": "^6.24.1",
-    "babel-loader": "^6.2.7",
-    "babel-preset-es2015": "^6.6.0",
+    "aws-sdk": "^2.49.0",
+    "dotenv": "^4.0.0",
     "webpack": "^2.5.1",
     "webpack-dev-server": "^1.16.2",
-    "aws-sdk": "^2.49.0",
-    "babel": "^6.23.0",
-    "dotenv": "^4.0.0",
     "webpack-node-externals": "^1.6.0",
     "xml2js": "^0.4.17"
   }
