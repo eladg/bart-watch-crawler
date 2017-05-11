@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "description": "vrtigo-db-scripts",
   "scripts": {
-    "crawl": "node build/crawl.js",
+    "crawl": "node_modules/webpack/bin/webpack.js && node build/crawler.js",
     "build-watch": "webpack -w"
   },
   "devDependencies": {
