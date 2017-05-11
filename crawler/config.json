@@ -1,0 +1,4 @@
+{
+  "concurrent_requests": 10,
+  "data_path": "../data"
+}
