@@ -14,11 +14,7 @@ const sources = [
   { 
     code: "special_information",
     api_url: "http://api.bart.gov/api/sched.aspx?cmd=special&key=MW9S-E7SL-26DU-VV8V&l=1", 
-  },
-  { 
-    code: "all_stations",
-    api_url: "http://api.bart.gov/api/stn.aspx?cmd=stns&key=MW9S-E7SL-26DU-VV8V", 
-  },
+  }
 ]
 
 export default sources;
